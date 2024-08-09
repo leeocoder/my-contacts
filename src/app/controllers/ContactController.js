@@ -29,7 +29,7 @@ class ContactController {
     const contact = await ContactsRepository.store({
       name,
       email,
-      phone,
+      phone_number: phone,
       category_id,
     });
 
