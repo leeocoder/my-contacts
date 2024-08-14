@@ -7,7 +7,7 @@ CREATE DATABASE mycontacts;
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 
--- \c mycontacts - Contac com o banco
+-- \c mycontacts - com o nome do banco
 
 -- \dt - Lista as tabelas
 
